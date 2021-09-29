@@ -1,0 +1,9 @@
+.education{
+    margin-top: 10px;
+    color: white;
+    padding: 5%;
+    background-color: rgba(43,43,43,.85);
+    width: match-parent;
+    text-align: left;
+    border-radius: 20px;
+}

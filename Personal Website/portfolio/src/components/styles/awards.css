@@ -1,0 +1,14 @@
+.awards{
+    background-color: rgba(43,43,43,.85);
+    color: white;
+    padding: 5%;
+    text-align: left;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.awardsCompany{
+    margin: 0 auto 0 auto;
+}
+.awardsTitle{
+    margin-top: 0;
+}

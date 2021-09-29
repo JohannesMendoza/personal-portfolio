@@ -1,0 +1,47 @@
+.projectWrapper{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+.projectTitle{
+    text-align: left;
+    margin: 0;
+}
+.projectDescription{
+    text-align: left;
+    /*margin: 0 auto 1% auto;*/
+    margin: 0;
+}
+.projectContent{
+    text-align: left;
+}
+.projectBullets{
+    list-style-type: circle;
+}
+.projectHeader{
+    display: flex;
+    flex-direction: row;
+}
+.projectLogo{
+    margin-right: 10px;
+    width: 100px;
+    min-width: 100px;
+}
+.projectGithub{
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+}
+.projectGithub:hover{
+    color: white
+}
+.projectInfo{
+    margin: 0;
+    font-weight: 500;
+}
+.projectDemo{
+    width: 100%;
+    margin: auto;
+    border-radius: 10%;
+    border: solid white 5px;
+}

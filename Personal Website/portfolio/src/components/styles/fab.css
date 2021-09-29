@@ -1,0 +1,17 @@
+.fabWrapper{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    margin-top: 7.5%;
+}
+.fabContent{
+    text-align: center;
+    color: white;
+    background-size: cover;
+    margin: 0 auto 1% auto;
+}
+.fabDemo{
+    width: 100%;
+    margin: auto;
+}

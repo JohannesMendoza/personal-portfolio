@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background-color: #1D1D1D;
+  min-height: 100vh;
+}
+
+.loadingScreen{
+  background-color: #1D1D1D;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed; 
+  /*top: 50%; 
+  left: 50%; */
+  z-index: 102;
+}

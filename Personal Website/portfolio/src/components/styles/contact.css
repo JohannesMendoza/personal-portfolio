@@ -1,0 +1,18 @@
+.contact{
+    /*margin: 10px 100px;*/
+    color: white;
+    padding: 5%;
+    background-color: rgba(43,43,43,.85);
+    width: match-parent;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.contactLink{
+    color: white;
+    text-decoration: none;
+}
+
+.contactLink:hover{
+    color: rgb(0, 89, 255)
+}

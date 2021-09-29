@@ -1,0 +1,16 @@
+.angelsBreadWrapper{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+.angelsBreadContent{
+    text-align: center;
+    color: white;
+    background-size: cover;
+    margin: 0 auto 1% auto;
+}
+.angelsBreadDemo{
+    width: 100%;
+    margin: auto;
+}

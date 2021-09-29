@@ -1,0 +1,15 @@
+.rightColumn{
+    width: 200%;
+    /*margin-left: 1%;*/
+    padding-top: 2%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 768px){
+    .rightColumn{
+        width: 96%;
+        margin: 2%;
+        margin-top: 0;
+        padding: 0;
+    }
+}

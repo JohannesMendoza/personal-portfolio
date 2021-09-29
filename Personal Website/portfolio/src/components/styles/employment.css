@@ -1,0 +1,25 @@
+.employment{
+    background-color: rgba(43,43,43,.85);
+    color: white;
+    padding: 5%;
+    text-align: left;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.employmentEntry{
+    display: flex;
+    flex-direction: row;
+}
+.employmentImage{
+    width: 100px;
+}
+.employmentDetails{
+    margin: 10px 0 10px 10px;
+
+}
+.employmentCompany{
+    margin-bottom: 0;
+}
+.employmentTitle{
+    margin-top: 0;
+}

@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+    padding-bottom: 1%;
+    color: white;
+}
+.headerWrapper{
+    padding-top: 5vh;
+}
+.headerImage{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.headerPhoto{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    border: solid white 10px;
+}
+.headerName{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+    width: max-content;
+}
+.headerTitle{
+    margin-left: auto;
+    margin-right: auto;
+}
+.headerQuote{
+    margin: auto;
+    width: 100%;
+    text-align: left;
+}
+.headerInfo{
+    color: white;
+    text-align: center;
+}
+
+.headerQuoteEmphasis{
+    text-decoration: underline 3px rgb(0, 89, 255);
+    text-underline-offset: 3px;
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        flex-direction: column;
+        margin: auto;
+    }
+    .headerImage{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .headerQuote{
+        text-align: center;
+    }
+    .headerQuoteEmphasis{
+        margin-top: 0;
+    }
+}
